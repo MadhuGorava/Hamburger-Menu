@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.about-image {
+  height: 500px;
+  width: 500px;
+}
+@media screen and (max-width: 768px) {
+  .about-sm-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-lg-container {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about-sm-container {
+    display: none;
+  }
+  .about-lg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
